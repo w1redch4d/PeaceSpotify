@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  dllmain.cpp
+  peace.cpp
+  Generating Code...
+     Creating library D:\Projects\PeaceSpotify-orig\x64\Debug\libcef.lib and object D:\Projects\PeaceSpotify-orig\x64\Debug\libcef.exp
+  PeaceSpotify.vcxproj -> D:\Projects\PeaceSpotify-orig\x64\Debug\libcef.dll
