@@ -1,211 +1,211 @@
-          1    0 049A1F10 CrashForExceptionInNonABICompliantCodeRange
-          2    1 017C5500 GetHandleVerifier
-          3    2 00374000 IsCrashReportingEnabledImpl
-          4    3 01508D20 IsSandboxedProcess
-          5    4 015D1A80 RelaunchChromeBrowserWithNewCommandLineIfNeeded
-          6    5 00373D00 SetCrashKeyValueImpl
-          7    6 002093E0 cef_add_cross_origin_whitelist_entry
-          8    7 0020B540 cef_api_hash
-          9    8 00209F40 cef_base64decode
-         10    9 00209E50 cef_base64encode
-         11    A 00389B30 cef_basetime_now
-         12    B 0020AB70 cef_begin_tracing
-         13    C 0020D910 cef_binary_value_create
-         14    D 0020FE30 cef_browser_host_create_browser
-         15    E 002101B0 cef_browser_host_create_browser_sync
-         16    F 00214FD0 cef_browser_view_create
-         17   10 00215700 cef_browser_view_get_for_browser
-         18   11 002095E0 cef_clear_cross_origin_whitelist
-         19   12 0020A9C0 cef_clear_scheme_handler_factories
-         20   13 0021C1B0 cef_command_line_create
-         21   14 0021C420 cef_command_line_get_global
-         22   15 00220BF0 cef_cookie_manager_get_global_manager
-         23   16 00208E20 cef_crash_reporting_enabled
-         24   17 00248ED0 cef_create_context_shared
-         25   18 00208EF0 cef_create_directory
-         26   19 00208FE0 cef_create_new_temp_directory
-         27   1A 002090B0 cef_create_temp_directory_in_directory
-         28   1B 00209970 cef_create_url
-         29   1C 0020AA00 cef_currently_on
-         30   1D 00209220 cef_delete_file
-         31   1E 00224DE0 cef_dictionary_value_create
-         32   1F 002091B0 cef_directory_exists
-         33   20 00227780 cef_display_convert_screen_point_from_pixels
-         34   21 00227720 cef_display_convert_screen_point_to_pixels
-         35   22 00227840 cef_display_convert_screen_rect_from_pixels
-         36   23 002277E0 cef_display_convert_screen_rect_to_pixels
-         37   24 00227360 cef_display_get_alls
-         38   25 00227340 cef_display_get_count
-         39   26 002271C0 cef_display_get_matching_bounds
-         40   27 00227040 cef_display_get_nearest_point
-         41   28 00226EE0 cef_display_get_primary
-         42   29 00208DF0 cef_do_message_loop_work
-         43   2A 0022A2F0 cef_drag_data_create
-         44   2B 0020AC70 cef_end_tracing
-         45   2C 0020AEB0 cef_execute_java_script_with_user_gesture_for_tests
-         46   2D 00208BA0 cef_execute_process
-         47   2E 00209AD0 cef_format_url_for_security_display
-         48   2F 0036DA60 cef_get_current_platform_thread_handle
-         49   30 0036DA60 cef_get_current_platform_thread_id
-         50   31 00208DD0 cef_get_exit_code
-         51   32 00209D10 cef_get_extensions_for_mime_type
-         52   33 00209BF0 cef_get_mime_type
-         53   34 0036D9C0 cef_get_min_log_level
-         54   35 0020A760 cef_get_path
-         55   36 00208F60 cef_get_temp_directory
-         56   37 0036D9D0 cef_get_vlog_level
-         57   38 00230B20 cef_image_create
-         58   39 00208C70 cef_initialize
-         59   3A 0020A9E0 cef_is_cert_status_error
-         60   3B 002093C0 cef_is_rtl
-         61   3C 00232520 cef_label_button_create
-         62   3D 0020A7E0 cef_launch_process
-         63   3E 00234270 cef_list_value_create
-         64   3F 00209350 cef_load_crlsets_file
-         65   40 0036D9E0 cef_log
-         66   41 002375E0 cef_media_router_get_global
-         67   42 00238720 cef_menu_button_create
-         68   43 002393F0 cef_menu_model_create
-         69   44 0020AD70 cef_now_from_system_trace_time
-         70   45 0023E360 cef_panel_create
-         71   46 0020A2A0 cef_parse_json
-         72   47 0020A3C0 cef_parse_json_buffer
-         73   48 0020A4B0 cef_parse_jsonand_return_error
-         74   49 00209700 cef_parse_url
-         75   4A 002407D0 cef_post_data_create
-         76   4B 00241230 cef_post_data_element_create
-         77   4C 0020AAC0 cef_post_delayed_task
-         78   4D 0020AA20 cef_post_task
-         79   4E 002419F0 cef_preference_manager_get_global
-         80   4F 00242E10 cef_print_settings_create
-         81   50 00244090 cef_process_message_create
-         82   51 00208E10 cef_quit_message_loop
-         83   52 0020AD80 cef_register_extension
-         84   53 0020A880 cef_register_scheme_handler_factory
-         85   54 002094E0 cef_remove_cross_origin_whitelist_entry
-         86   55 00248CC0 cef_request_context_create_context
-         87   56 002489B0 cef_request_context_get_global_context
-         88   57 00247270 cef_request_create
-         89   58 00209600 cef_resolve_url
-         90   59 0024CF30 cef_resource_bundle_get_global
-         91   5A 0024FDA0 cef_response_create
-         92   5B 00208E00 cef_run_message_loop
-         93   5C 00252020 cef_scroll_view_create
-         94   5D 00252FD0 cef_server_create
-         95   5E 00208E40 cef_set_crash_key_value
-         96   5F 0020AF90 cef_set_data_directory_for_tests
-         97   60 0020B570 cef_set_osmodal_loop
-         98   61 00254930 cef_shared_process_message_builder_create
-         99   62 00208DE0 cef_shutdown
-        100   63 00254F80 cef_stream_reader_create_for_data
-        101   64 00254DC0 cef_stream_reader_create_for_file
-        102   65 00255110 cef_stream_reader_create_for_handler
-        103   66 00255430 cef_stream_writer_create_for_file
-        104   67 002555F0 cef_stream_writer_create_for_handler
-        105   68 00387940 cef_string_ascii_to_utf16
-        106   69 00387680 cef_string_ascii_to_wide
-        107   6A 00385600 cef_string_list_alloc
-        108   6B 00385680 cef_string_list_append
-        109   6C 00385790 cef_string_list_clear
-        110   6D 003858B0 cef_string_list_copy
-        111   6E 00385810 cef_string_list_free
-        112   6F 00385630 cef_string_list_size
-        113   70 00385640 cef_string_list_value
-        114   71 00385B80 cef_string_map_alloc
-        115   72 00385D00 cef_string_map_append
-        116   73 00386070 cef_string_map_clear
-        117   74 00385BC0 cef_string_map_find
-        118   75 003860D0 cef_string_map_free
-        119   76 00385C80 cef_string_map_key
-        120   77 00385BB0 cef_string_map_size
-        121   78 00385CC0 cef_string_map_value
-        122   79 00385B80 cef_string_multimap_alloc
-        123   7A 003865D0 cef_string_multimap_append
-        124   7B 00386070 cef_string_multimap_clear
-        125   7C 003862D0 cef_string_multimap_enumerate
-        126   7D 00386250 cef_string_multimap_find_count
-        127   7E 003860D0 cef_string_multimap_free
-        128   7F 003863F0 cef_string_multimap_key
-        129   80 00385BB0 cef_string_multimap_size
-        130   81 003864E0 cef_string_multimap_value
-        131   82 00385600 cef_string_userfree_utf16_alloc
-        132   83 00387B80 cef_string_userfree_utf16_free
-        133   84 00385600 cef_string_userfree_utf8_alloc
-        134   85 00387B80 cef_string_userfree_utf8_free
-        135   86 00385600 cef_string_userfree_wide_alloc
-        136   87 00387B80 cef_string_userfree_wide_free
-        137   88 00386E50 cef_string_utf16_clear
-        138   89 00386FF0 cef_string_utf16_cmp
-        139   8A 00386D90 cef_string_utf16_set
-        140   8B 00387BD0 cef_string_utf16_to_lower
-        141   8C 00387D40 cef_string_utf16_to_upper
-        142   8D 00387590 cef_string_utf16_to_utf8
-        143   8E 00387370 cef_string_utf16_to_wide
-        144   8F 00386E50 cef_string_utf8_clear
-        145   90 00386FA0 cef_string_utf8_cmp
-        146   91 00386EA0 cef_string_utf8_set
-        147   92 00387480 cef_string_utf8_to_utf16
-        148   93 00387150 cef_string_utf8_to_wide
-        149   94 00386E50 cef_string_wide_clear
-        150   95 00386F50 cef_string_wide_cmp
-        151   96 00386D90 cef_string_wide_set
-        152   97 00387260 cef_string_wide_to_utf16
-        153   98 00387060 cef_string_wide_to_utf8
-        154   99 00255A70 cef_task_runner_get_for_current_thread
-        155   9A 00255BF0 cef_task_runner_get_for_thread
-        156   9B 00256150 cef_test_server_create_and_start
-        157   9C 00256CD0 cef_textfield_create
-        158   9D 002588B0 cef_thread_create
-        159   9E 00389B70 cef_time_delta
-        160   9F 00389D60 cef_time_from_basetime
-        161   A0 00389950 cef_time_from_doublet
-        162   A1 00389740 cef_time_from_timet
-        163   A2 00389A70 cef_time_now
-        164   A3 00389CD0 cef_time_to_basetime
-        165   A4 00389840 cef_time_to_doublet
-        166   A5 00389630 cef_time_to_timet
-        167   A6 0036D060 cef_trace_counter
-        168   A7 0036D1B0 cef_trace_counter_id
-        169   A8 0036D320 cef_trace_event_async_begin
-        170   A9 0036D7E0 cef_trace_event_async_end
-        171   AA 0036D500 cef_trace_event_async_step_into
-        172   AB 0036D670 cef_trace_event_async_step_past
-        173   AC 0036CCE0 cef_trace_event_begin
-        174   AD 0036CEA0 cef_trace_event_end
-        175   AE 0036CB20 cef_trace_event_instant
-        176   AF 00258CB0 cef_translator_test_create
-        177   B0 0025E1D0 cef_translator_test_ref_ptr_library_child_child_create
-        178   B1 0025DEF0 cef_translator_test_ref_ptr_library_child_create
-        179   B2 0025DB70 cef_translator_test_ref_ptr_library_create
-        180   B3 0025EBE0 cef_translator_test_scoped_library_child_child_create
-        181   B4 0025E9C0 cef_translator_test_scoped_library_child_create
-        182   B5 0025E730 cef_translator_test_scoped_library_create
-        183   B6 0020A180 cef_uridecode
-        184   B7 0020A060 cef_uriencode
-        185   B8 0025ED40 cef_urlrequest_create
-        186   B9 00260340 cef_v8context_get_current_context
-        187   BA 002604F0 cef_v8context_get_entered_context
-        188   BB 002606A0 cef_v8context_in_context
-        189   BC 002628C0 cef_v8stack_trace_get_current
-        190   BD 00263690 cef_v8value_create_array
-        191   BE 00263730 cef_v8value_create_array_buffer
-        192   BF 002630F0 cef_v8value_create_bool
-        193   C0 00263370 cef_v8value_create_date
-        194   C1 002632D0 cef_v8value_create_double
-        195   C2 00263860 cef_v8value_create_function
-        196   C3 00263190 cef_v8value_create_int
-        197   C4 00263050 cef_v8value_create_null
-        198   C5 002634F0 cef_v8value_create_object
-        199   C6 002639C0 cef_v8value_create_promise
-        200   C7 00263410 cef_v8value_create_string
-        201   C8 00263230 cef_v8value_create_uint
-        202   C9 00262C20 cef_v8value_create_undefined
-        203   CA 00266640 cef_value_create
-        204   CB 0020B500 cef_version_info
-        205   CC 00268A00 cef_waitable_event_create
-        206   CD 00268D40 cef_window_create_top_level
-        207   CE 0020A610 cef_write_json
-        208   CF 0026DC90 cef_xml_reader_create
-        209   D0 002092A0 cef_zip_directory
-        210   D1 0026FAD0 cef_zip_reader_create
-        211   D2 0738BC10 sqlite3_dbdata_init
+1    0 04AE39F0 CrashForExceptionInNonABICompliantCodeRange
+2    1 0188EE80 GetHandleVerifier
+3    2 00373CA0 IsCrashReportingEnabledImpl
+4    3 015D6140 IsSandboxedProcess
+5    4 016B3790 RelaunchChromeBrowserWithNewCommandLineIfNeeded
+6    5 003739A0 SetCrashKeyValueImpl
+7    6 00203780 cef_add_cross_origin_whitelist_entry
+8    7 00205920 cef_api_hash
+9    8 00204300 cef_base64decode
+10    9 00204210 cef_base64encode
+11    A 00389910 cef_basetime_now
+12    B 00204F40 cef_begin_tracing
+13    C 00207D70 cef_binary_value_create
+14    D 0020A2A0 cef_browser_host_create_browser
+15    E 0020A630 cef_browser_host_create_browser_sync
+16    F 0020F520 cef_browser_view_create
+17   10 0020FC50 cef_browser_view_get_for_browser
+18   11 00203980 cef_clear_cross_origin_whitelist
+19   12 00204D90 cef_clear_scheme_handler_factories
+20   13 002168A0 cef_command_line_create
+21   14 00216B10 cef_command_line_get_global
+22   15 0021B2C0 cef_cookie_manager_get_global_manager
+23   16 002031A0 cef_crash_reporting_enabled
+24   17 00243700 cef_create_context_shared
+25   18 00203270 cef_create_directory
+26   19 00203360 cef_create_new_temp_directory
+27   1A 00203430 cef_create_temp_directory_in_directory
+28   1B 00203D20 cef_create_url
+29   1C 00204DD0 cef_currently_on
+30   1D 002035B0 cef_delete_file
+31   1E 0021F510 cef_dictionary_value_create
+32   1F 00203540 cef_directory_exists
+33   20 00221EE0 cef_display_convert_screen_point_from_pixels
+34   21 00221E80 cef_display_convert_screen_point_to_pixels
+35   22 00221FA0 cef_display_convert_screen_rect_from_pixels
+36   23 00221F40 cef_display_convert_screen_rect_to_pixels
+37   24 00221AC0 cef_display_get_alls
+38   25 00221AA0 cef_display_get_count
+39   26 00221920 cef_display_get_matching_bounds
+40   27 002217A0 cef_display_get_nearest_point
+41   28 00221640 cef_display_get_primary
+42   29 00203170 cef_do_message_loop_work
+43   2A 00224A80 cef_drag_data_create
+44   2B 00205040 cef_end_tracing
+45   2C 00205290 cef_execute_java_script_with_user_gesture_for_tests
+46   2D 00202F20 cef_execute_process
+47   2E 00203E90 cef_format_url_for_security_display
+48   2F 0036C540 cef_get_current_platform_thread_handle
+49   30 0036C540 cef_get_current_platform_thread_id
+50   31 00203150 cef_get_exit_code
+51   32 002040D0 cef_get_extensions_for_mime_type
+52   33 00203FB0 cef_get_mime_type
+53   34 0036C4A0 cef_get_min_log_level
+54   35 00204B30 cef_get_path
+55   36 002032E0 cef_get_temp_directory
+56   37 0036C4B0 cef_get_vlog_level
+57   38 0022B2B0 cef_image_create
+58   39 00202FF0 cef_initialize
+59   3A 00204DB0 cef_is_cert_status_error
+60   3B 00203760 cef_is_rtl
+61   3C 0022CCA0 cef_label_button_create
+62   3D 00204BB0 cef_launch_process
+63   3E 0022E9C0 cef_list_value_create
+64   3F 002036F0 cef_load_crlsets_file
+65   40 0036C4C0 cef_log
+66   41 00231D40 cef_media_router_get_global
+67   42 00232E70 cef_menu_button_create
+68   43 00233B40 cef_menu_model_create
+69   44 00205140 cef_now_from_system_trace_time
+70   45 00238AD0 cef_panel_create
+71   46 00204660 cef_parse_json
+72   47 00204780 cef_parse_json_buffer
+73   48 00204870 cef_parse_jsonand_return_error
+74   49 00203AB0 cef_parse_url
+75   4A 0023AF50 cef_post_data_create
+76   4B 0023B9C0 cef_post_data_element_create
+77   4C 00204E90 cef_post_delayed_task
+78   4D 00204DF0 cef_post_task
+79   4E 0023C1A0 cef_preference_manager_get_global
+80   4F 0023D5C0 cef_print_settings_create
+81   50 0023E860 cef_process_message_create
+82   51 00203190 cef_quit_message_loop
+83   52 00205150 cef_register_extension
+84   53 00204C50 cef_register_scheme_handler_factory
+85   54 00203880 cef_remove_cross_origin_whitelist_entry
+86   55 002434F0 cef_request_context_create_context
+87   56 002431E0 cef_request_context_get_global_context
+88   57 00241AA0 cef_request_create
+89   58 002039A0 cef_resolve_url
+90   59 002477C0 cef_resource_bundle_get_global
+91   5A 0024A630 cef_response_create
+92   5B 00203180 cef_run_message_loop
+93   5C 0024C850 cef_scroll_view_create
+94   5D 0024D800 cef_server_create
+95   5E 002031C0 cef_set_crash_key_value
+96   5F 00205370 cef_set_data_directory_for_tests
+97   60 00205950 cef_set_osmodal_loop
+98   61 0024F190 cef_shared_process_message_builder_create
+99   62 00203160 cef_shutdown
+100   63 0024F7F0 cef_stream_reader_create_for_data
+101   64 0024F630 cef_stream_reader_create_for_file
+102   65 0024F980 cef_stream_reader_create_for_handler
+103   66 0024FCA0 cef_stream_writer_create_for_file
+104   67 0024FE60 cef_stream_writer_create_for_handler
+105   68 003876C0 cef_string_ascii_to_utf16
+106   69 003873E0 cef_string_ascii_to_wide
+107   6A 003852E0 cef_string_list_alloc
+108   6B 00385360 cef_string_list_append
+109   6C 00385470 cef_string_list_clear
+110   6D 00385590 cef_string_list_copy
+111   6E 003854F0 cef_string_list_free
+112   6F 00385310 cef_string_list_size
+113   70 00385320 cef_string_list_value
+114   71 00385870 cef_string_map_alloc
+115   72 003859F0 cef_string_map_append
+116   73 00385D70 cef_string_map_clear
+117   74 003858B0 cef_string_map_find
+118   75 00385DD0 cef_string_map_free
+119   76 00385970 cef_string_map_key
+120   77 003858A0 cef_string_map_size
+121   78 003859B0 cef_string_map_value
+122   79 00385870 cef_string_multimap_alloc
+123   7A 003862E0 cef_string_multimap_append
+124   7B 00385D70 cef_string_multimap_clear
+125   7C 00385FD0 cef_string_multimap_enumerate
+126   7D 00385F50 cef_string_multimap_find_count
+127   7E 00385DD0 cef_string_multimap_free
+128   7F 00386100 cef_string_multimap_key
+129   80 003858A0 cef_string_multimap_size
+130   81 003861F0 cef_string_multimap_value
+131   82 003852E0 cef_string_userfree_utf16_alloc
+132   83 00387920 cef_string_userfree_utf16_free
+133   84 003852E0 cef_string_userfree_utf8_alloc
+134   85 00387920 cef_string_userfree_utf8_free
+135   86 003852E0 cef_string_userfree_wide_alloc
+136   87 00387920 cef_string_userfree_wide_free
+137   88 00386B90 cef_string_utf16_clear
+138   89 00386D30 cef_string_utf16_cmp
+139   8A 00386AD0 cef_string_utf16_set
+140   8B 00387970 cef_string_utf16_to_lower
+141   8C 00387AF0 cef_string_utf16_to_upper
+142   8D 003872E0 cef_string_utf16_to_utf8
+143   8E 003870C0 cef_string_utf16_to_wide
+144   8F 00386B90 cef_string_utf8_clear
+145   90 00386CE0 cef_string_utf8_cmp
+146   91 00386BE0 cef_string_utf8_set
+147   92 003871D0 cef_string_utf8_to_utf16
+148   93 00386EA0 cef_string_utf8_to_wide
+149   94 00386B90 cef_string_wide_clear
+150   95 00386C90 cef_string_wide_cmp
+151   96 00386AD0 cef_string_wide_set
+152   97 00386FB0 cef_string_wide_to_utf16
+153   98 00386DA0 cef_string_wide_to_utf8
+154   99 002502E0 cef_task_runner_get_for_current_thread
+155   9A 00250460 cef_task_runner_get_for_thread
+156   9B 002509D0 cef_test_server_create_and_start
+157   9C 00251560 cef_textfield_create
+158   9D 00253130 cef_thread_create
+159   9E 00389950 cef_time_delta
+160   9F 00389B50 cef_time_from_basetime
+161   A0 00389730 cef_time_from_doublet
+162   A1 00389520 cef_time_from_timet
+163   A2 00389850 cef_time_now
+164   A3 00389AB0 cef_time_to_basetime
+165   A4 00389620 cef_time_to_doublet
+166   A5 00389400 cef_time_to_timet
+167   A6 0036BB40 cef_trace_counter
+168   A7 0036BC90 cef_trace_counter_id
+169   A8 0036BE00 cef_trace_event_async_begin
+170   A9 0036C2C0 cef_trace_event_async_end
+171   AA 0036BFE0 cef_trace_event_async_step_into
+172   AB 0036C150 cef_trace_event_async_step_past
+173   AC 0036B7C0 cef_trace_event_begin
+174   AD 0036B980 cef_trace_event_end
+175   AE 0036B600 cef_trace_event_instant
+176   AF 00253530 cef_translator_test_create
+177   B0 00258B30 cef_translator_test_ref_ptr_library_child_child_create
+178   B1 00258850 cef_translator_test_ref_ptr_library_child_create
+179   B2 002584D0 cef_translator_test_ref_ptr_library_create
+180   B3 00259550 cef_translator_test_scoped_library_child_child_create
+181   B4 00259330 cef_translator_test_scoped_library_child_create
+182   B5 002590A0 cef_translator_test_scoped_library_create
+183   B6 00204540 cef_uridecode
+184   B7 00204420 cef_uriencode
+185   B8 002596B0 cef_urlrequest_create
+186   B9 0025AC70 cef_v8context_get_current_context
+187   BA 0025AE20 cef_v8context_get_entered_context
+188   BB 0025AFD0 cef_v8context_in_context
+189   BC 0025D1F0 cef_v8stack_trace_get_current
+190   BD 0025DFC0 cef_v8value_create_array
+191   BE 0025E060 cef_v8value_create_array_buffer
+192   BF 0025DA20 cef_v8value_create_bool
+193   C0 0025DCA0 cef_v8value_create_date
+194   C1 0025DC00 cef_v8value_create_double
+195   C2 0025E190 cef_v8value_create_function
+196   C3 0025DAC0 cef_v8value_create_int
+197   C4 0025D980 cef_v8value_create_null
+198   C5 0025DE20 cef_v8value_create_object
+199   C6 0025E2F0 cef_v8value_create_promise
+200   C7 0025DD40 cef_v8value_create_string
+201   C8 0025DB60 cef_v8value_create_uint
+202   C9 0025D550 cef_v8value_create_undefined
+203   CA 00260FB0 cef_value_create
+204   CB 002058E0 cef_version_info
+205   CC 00263370 cef_waitable_event_create
+206   CD 002636B0 cef_window_create_top_level
+207   CE 002049E0 cef_write_json
+208   CF 00268780 cef_xml_reader_create
+209   D0 00203630 cef_zip_directory
+210   D1 0026A5C0 cef_zip_reader_create
+211   D2 07571B70 sqlite3_dbdata_init
